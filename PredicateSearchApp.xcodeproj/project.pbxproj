@@ -18,9 +18,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		03509C4E2F11639900CC1E00 /* test44 */ = {
+		03509C4E2F11639900CC1E00 /* PredicateSearchApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = test44;
+			path = PredicateSearchApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -42,7 +42,7 @@
 				03D483042F123C3F0018537E /* README_fr.md */,
 				03D484E82F123EA70018537E /* README.md */,
 				03509C4D2F11639900CC1E00 /* Products */,
-				03509C4E2F11639900CC1E00 /* test44 */,
+				03509C4E2F11639900CC1E00 /* PredicateSearchApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +70,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				03509C4E2F11639900CC1E00 /* test44 */,
+				03509C4E2F11639900CC1E00 /* PredicateSearchApp */,
 			);
 			name = PredicateSearchApp;
 			packageProductDependencies = (
@@ -138,6 +138,8 @@
 /* Begin XCBuildConfiguration section */
 		03509C572F11639A00CC1E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 03509C4E2F11639900CC1E00 /* PredicateSearchApp */;
+			baseConfigurationReferenceRelativePath = BuildNumber.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -202,6 +204,8 @@
 		};
 		03509C582F11639A00CC1E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 03509C4E2F11639900CC1E00 /* PredicateSearchApp */;
+			baseConfigurationReferenceRelativePath = BuildNumber.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -258,6 +262,8 @@
 		};
 		03509C5A2F11639A00CC1E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 03509C4E2F11639900CC1E00 /* PredicateSearchApp */;
+			baseConfigurationReferenceRelativePath = BuildNumber.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +296,8 @@
 		};
 		03509C5B2F11639A00CC1E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 03509C4E2F11639900CC1E00 /* PredicateSearchApp */;
+			baseConfigurationReferenceRelativePath = BuildNumber.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
