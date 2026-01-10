@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		03D483052F123C3F0018537E /* README_fr.md in Resources */ = {isa = PBXBuildFile; fileRef = 03D483042F123C3F0018537E /* README_fr.md */; };
+		03D484E92F123EA70018537E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03D484E82F123EA70018537E /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		03509C4C2F11639900CC1E00 /* test44.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test44.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03509C4C2F11639900CC1E00 /* PredicateSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PredicateSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D483042F123C3F0018537E /* README_fr.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_fr.md; sourceTree = "<group>"; };
+		03D484E82F123EA70018537E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,15 +39,17 @@
 		03509C432F11639900CC1E00 = {
 			isa = PBXGroup;
 			children = (
-				03509C4E2F11639900CC1E00 /* test44 */,
+				03D483042F123C3F0018537E /* README_fr.md */,
+				03D484E82F123EA70018537E /* README.md */,
 				03509C4D2F11639900CC1E00 /* Products */,
+				03509C4E2F11639900CC1E00 /* test44 */,
 			);
 			sourceTree = "<group>";
 		};
 		03509C4D2F11639900CC1E00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03509C4C2F11639900CC1E00 /* test44.app */,
+				03509C4C2F11639900CC1E00 /* PredicateSearchApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +57,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03509C4B2F11639900CC1E00 /* test44 */ = {
+		03509C4B2F11639900CC1E00 /* PredicateSearchApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03509C592F11639A00CC1E00 /* Build configuration list for PBXNativeTarget "test44" */;
+			buildConfigurationList = 03509C592F11639A00CC1E00 /* Build configuration list for PBXNativeTarget "PredicateSearchApp" */;
 			buildPhases = (
 				03509C482F11639900CC1E00 /* Sources */,
 				03509C492F11639900CC1E00 /* Frameworks */,
@@ -63,11 +72,11 @@
 			fileSystemSynchronizedGroups = (
 				03509C4E2F11639900CC1E00 /* test44 */,
 			);
-			name = test44;
+			name = PredicateSearchApp;
 			packageProductDependencies = (
 			);
 			productName = test44;
-			productReference = 03509C4C2F11639900CC1E00 /* test44.app */;
+			productReference = 03509C4C2F11639900CC1E00 /* PredicateSearchApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03509C472F11639900CC1E00 /* Build configuration list for PBXProject "test44" */;
+			buildConfigurationList = 03509C472F11639900CC1E00 /* Build configuration list for PBXProject "PredicateSearchApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03509C4B2F11639900CC1E00 /* test44 */,
+				03509C4B2F11639900CC1E00 /* PredicateSearchApp */,
 			);
 		};
 /* End PBXProject section */
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D483052F123C3F0018537E /* README_fr.md in Resources */,
+				03D484E92F123EA70018537E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03509C472F11639900CC1E00 /* Build configuration list for PBXProject "test44" */ = {
+		03509C472F11639900CC1E00 /* Build configuration list for PBXProject "PredicateSearchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03509C572F11639A00CC1E00 /* Debug */,
@@ -321,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03509C592F11639A00CC1E00 /* Build configuration list for PBXNativeTarget "test44" */ = {
+		03509C592F11639A00CC1E00 /* Build configuration list for PBXNativeTarget "PredicateSearchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03509C5A2F11639A00CC1E00 /* Debug */,
