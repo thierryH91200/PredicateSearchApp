@@ -3,6 +3,7 @@
 
 
 
+
 Application SwiftUI pour macOS démontrant l'utilisation de NSPredicateEditor avec SwiftData.
 
 📋 Description
